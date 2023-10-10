@@ -7,7 +7,7 @@ bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(commands=['start', 'hello'])
 def send_welcome(message):
-    bot.reply_to(message, "Hey Gay, how are you doing???")
+    bot.reply_to(message, "Hi teacher, how are you???")
 
 
 @bot.message_handler(func=lambda msg: True)
